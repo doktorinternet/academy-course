@@ -20,6 +20,11 @@ public class Adder{
 		for(int i = 0; i < 3; i++){
 			System.out.println("*    *     *");
 		}
+
+		if( s.hasNextInt())
+			int x = sc.nextInt();
+		int b = x*x;
+		System.out.print(b);
 	}
 
 }
